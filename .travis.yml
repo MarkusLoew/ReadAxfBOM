@@ -2,5 +2,5 @@ language: R
 cache: packages
 r_packages:
   - covr
-after_success: 
-  - bash <(curl -s https://codecov.io/bash)
+after_success:
+  - Rscript -e 'covr::codecov()'
