@@ -17,7 +17,7 @@ Import a weather station observation axf-file downloaded from a Australian Burea
 }
 \examples{
 \dontrun{
-observations <- ReadAxfBOM(filename.axf)
+observations <- ReadAxfBOM("filename.axf")
 }
 }
 
