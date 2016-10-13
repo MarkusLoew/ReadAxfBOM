@@ -4,7 +4,7 @@
 #' @return Data frame with the observations in file. See http://www.bom.gov.au/weather-services/about/IDY03000.doc for details
 #' @examples 
 #' \dontrun{
-#' observations <- ReadAxfBOM(filename.axf)
+#' observations <- ReadAxfBOM("filename.axf")
 #' }
 
 
@@ -36,7 +36,8 @@ ReadAxfBOM <- function(data) {
         # actual import of the data
         the.data <- utils::read.csv(data,
                                     skip = data.location[1],
-                                    nrows = data.rows)
+                                    nrows = data.rows,
+                                    na.strings =  c("", "-"))
 
         # get rid of th e".[80]" in some of the names
         names(the.data) <- gsub("\\.80\\.", "", names(the.data))

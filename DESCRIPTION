@@ -1,7 +1,7 @@
 Package: ReadAxfBOM
 Title: Import weather station observation axf-file downloaded from a Australian
     Bureau of Meteorology station
-Version: 0.0.9.0000
+Version: 0.0.9.1000
 Authors@R: person("Markus", "Loew", email = "m.loew@unimelb.edu.au", role = c("aut", "cre"))
 Description: This package allows to import an axf file with the observations
     from an BOM weather station.

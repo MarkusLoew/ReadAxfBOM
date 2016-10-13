@@ -1,0 +1,5 @@
+ReadAxfBOM 0.0.9.1000
+----------------------------------------------------------------
+
+* Added na.strings option to improve import of missing data
+
