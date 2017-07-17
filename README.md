@@ -10,6 +10,8 @@ See
 
 for details on the function provided by this package.
 The import functions returns a data frame with the weather observations.
+Used in this example at Rpubs:  
+http://rpubs.com/MarkusLoew/226759
 
 
 ### Installation
